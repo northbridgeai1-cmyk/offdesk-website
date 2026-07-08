@@ -5,9 +5,9 @@
   --ink-soft:#4c5651;
   --paper:#fbfaf6;
   --paper-dark:#f2efe6;
-  --navy:#3a2418;
-  --deep:#2a2018;
-  --deep-2:#33261c;
+  --navy:#232323;
+  --deep:#1a1a1a;
+  --deep-2:#222222;
   --teal:#1f9d78;
   --teal-dark:#136349;
   --teal-soft:#a9dcc4;
@@ -145,7 +145,7 @@ section{position:relative}
   display:flex;flex-direction:column;position:relative;
   transition:transform .25s ease, box-shadow .25s ease;
 }
-.tier:hover{transform:translateY(-6px);box-shadow:0 24px 48px -22px rgba(42,32,24,.35)}
+.tier:hover{transform:translateY(-6px);box-shadow:0 24px 48px -22px rgba(26,26,26,.35)}
 .tier.best{
   border:2px solid var(--teal);
   box-shadow:0 26px 56px -22px rgba(31,157,120,.4);
