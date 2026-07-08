@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://northbridgeai1-cmyk.github.io/offdesk-website/sitemap.xml
