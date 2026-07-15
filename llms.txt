@@ -1,8 +1,8 @@
-# OffDesk
+# NorthBridge
 
-> OffDesk is an AI business automation company for small businesses. It builds and maintains automation workflows, led by an automated payment-chasing system, plus AI client communication and AI fluency training, in English and Spanish, for clients in the United States and Latin America.
+> NorthBridge is an AI business automation company for small businesses. It builds and maintains automation workflows, led by an automated payment-chasing system, plus AI client communication and AI fluency training, in English and Spanish, for clients in the United States and Latin America.
 
-## What OffDesk does
+## What NorthBridge does
 
 - Payment chasing automation: checks who has paid, automatically reminds late clients, notifies the team. Flagship product. $99/month pilot, no setup fee, 30-day money-back guarantee.
 - Cinderella (data & workflows): cleans data, automates back-office workflows in the client's own n8n account.
@@ -11,7 +11,7 @@
 
 ## How it works
 
-The OffDesk Cycle: Diagnose (2–3 days) → Build (3–7 days) → Educate & Train (1 session), repeating quarterly. Clients own their n8n accounts and their workflows. Maximum 3 new clients onboarded per month.
+The NorthBridge Cycle: Diagnose (2–3 days) → Build (3–7 days) → Educate & Train (1 session), repeating quarterly. Clients own their n8n accounts and their workflows. Maximum 3 new clients onboarded per month.
 
 ## Pricing
 
