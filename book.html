@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Book your first meeting: OffDesk</title>
-<meta name="description" content="Pick a time for your free 30-minute first meeting with OffDesk. Choose Zoom or Google Meet; the invite lands on both calendars automatically.">
+<title>Book your first meeting: NorthBridge</title>
+<meta name="description" content="Pick a time for your free 30-minute first meeting with NorthBridge. Choose Zoom or Google Meet; the invite lands on both calendars automatically.">
 <meta name="robots" content="noindex">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,12 +49,23 @@
 
 <header>
   <nav class="nav">
-    <a class="brand" href="index.html" aria-label="OffDesk home">
+    <a class="brand" href="index.html" aria-label="NorthBridge home">
       <svg width="34" height="34" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <text x="2" y="46" font-family="Georgia, serif" font-weight="700" font-size="40" fill="#1d2521">OD</text>
-        <circle cx="54" cy="12" r="6" fill="#2e7d4f"/>
+        <defs>
+          <linearGradient id="nbg" x1="8" y1="52" x2="56" y2="12" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#c1572f"/>
+            <stop offset=".55" stop-color="#1f9e8c"/>
+            <stop offset="1" stop-color="#25d193"/>
+          </linearGradient>
+        </defs>
+        <path d="M32 10 C34.5 22 42 29.5 54 32 C42 34.5 34.5 42 32 54 C29.5 42 22 34.5 10 32 C22 29.5 29.5 22 32 10 Z" fill="url(#nbg)"/>
+        <circle cx="32" cy="8" r="6" fill="url(#nbg)"/>
+        <circle cx="32" cy="56" r="6" fill="url(#nbg)"/>
+        <circle cx="8" cy="32" r="6" fill="url(#nbg)"/>
+        <circle cx="56" cy="32" r="6" fill="url(#nbg)"/>
+        <path d="M32 20 L35 30 L32 44 L29 30 Z" fill="#1a1a1a" opacity=".85"/>
       </svg>
-      <span class="brand-name">Off<br>Desk</span>
+      <span class="brand-name">North<br>bridge</span>
     </a>
     <div class="nav-right">
       <div class="nav-links">
@@ -136,7 +147,7 @@
 
 <footer>
   <div class="wrap foot">
-    <span>© 2026 OffDesk · Quito, Ecuador</span>
+    <span>© 2026 NorthBridge · Quito, Ecuador</span>
     <span><span class="en">Automation that pays for itself.</span><span class="es">Automatización que se paga sola.</span></span>
   </div>
 </footer>
@@ -160,7 +171,7 @@ var NB_SCHEDULER_URL = "REPLACE_ME";
   var mail = document.getElementById('mailBtn');
   if(mail){
     var subj = (plan ? plan + ': ' : '') + 'First meeting';
-    var body = 'Hi OffDesk,\n\nI picked: ' + (plan || '(not sure yet)') +
+    var body = 'Hi NorthBridge,\n\nI picked: ' + (plan || '(not sure yet)') +
       '\nTimes that work for me (with timezone):\n1.\n2.\n3.\n\nI prefer: Zoom / Google Meet\n\nMy business: ';
     mail.href = 'mailto:northbridgeai1@gmail.com?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(body);
   }
